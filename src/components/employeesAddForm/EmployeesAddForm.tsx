@@ -7,6 +7,7 @@ interface IEmployee {
   id: string
   name: string
   salary: number
+  rise: boolean
   increase: boolean
 }
 
@@ -26,10 +27,13 @@ const EmployeesAddForm = (props: EmployeesAddFormProps) => {
       id: uuid(),
       name,
       salary,
+      rise: false,
       increase: false
     }
 
-    onCreate(newEmployee)
+    if (newEmployee.name !== '' || newEmployee.salary !== 0) {
+      onCreate(newEmployee)
+    }
 
     setName('')
     setSalary(0)
