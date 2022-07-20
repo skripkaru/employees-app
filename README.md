@@ -10,6 +10,13 @@ Service for accounting employees and salaries
 
 **Client:** React, TypeScript, Hooks
 
+## Features
+
+- Adding an employee
+- Deleting an employee
+- Search by employees
+- Employee filter
+
 ## Installation
 
 Install marvel-app with yarn
