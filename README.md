@@ -28,11 +28,11 @@ Install marvel-app with yarn
 Compiles and hot-reloads for development
 
 ```bash
-  yarn run start
+  yarn start
 ```
 
 Compiles and minifies for production
 
 ```bash
-  yarn run build
+  yarn build
 ```
